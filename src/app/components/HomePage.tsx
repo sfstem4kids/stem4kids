@@ -168,15 +168,15 @@ export function HomePage() {
               icon={<BookOpen className="w-7 h-7 text-white" />}
             />
             <CounterStat
+              end={3}
+              label="Library Branches"
+              icon={<MapPin className="w-7 h-7 text-white" />}
+            />
+            <CounterStat
               end={100}
               suffix="%"
               label="Free Access"
               icon={<Star className="w-7 h-7 text-white" />}
-            />
-            <CounterStat
-              end={3}
-              label="Library Branches"
-              icon={<MapPin className="w-7 h-7 text-white" />}
             />
           </div>
         </div>
