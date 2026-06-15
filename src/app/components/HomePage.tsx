@@ -342,7 +342,11 @@ export function HomePage() {
       {/* Footer */}
       <footer className="py-10 px-6 text-center" style={{ background: "#39622D" }}>
         <div className="flex items-center justify-center gap-2 mb-3">
-          <Leaf className="w-5 h-5" style={{ color: "#85BF73" }} />
+          <img
+            src="/logo.png"
+            className="w-5 h-5 rounded-md object-cover"
+            alt="STEM4Kids Logo"
+          />
           <span style={{ fontFamily: "'Fraunces', serif", color: "#ffffff", fontWeight: 700, fontSize: "1.2rem" }}>
             STEM<span style={{ color: "#85BF73" }}>4</span>Kids
           </span>

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router";
-import { Leaf, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 export function Navbar() {
   const [visible, setVisible] = useState(true);
@@ -43,12 +43,11 @@ export function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 group">
-          <div
-            className="w-9 h-9 rounded-xl flex items-center justify-center"
-            style={{ background: "#6CB257" }}
-          >
-            <Leaf className="w-5 h-5 text-white" />
-          </div>
+          <img
+            src="/logo.png"
+            className="w-9 h-9 rounded-xl object-cover"
+            alt="STEM4Kids Logo"
+          />
           <span
             className="font-extrabold tracking-tight"
             style={{ fontFamily: "'Fraunces', serif", color: "#ffffff", fontSize: "1.4rem" }}
